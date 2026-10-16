@@ -36,7 +36,7 @@ module.exports.run = async function({ api, event }) {
 │ 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗟𝗜𝗡𝗞𝗦
 ├───────────────
 │📘 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸:
-│https://fb.com/61564608965386
+│https://www.facebook.com/share/1CUi4CwD3o/
 └───────────────⭓
 
 ┌───────────────⭓
@@ -44,4 +44,11 @@ module.exports.run = async function({ api, event }) {
 ├───────────────
 │ ${time}
 └───────────────⭓
- `
+ `,
+ attachment: fs.createReadStream(__dirname + "/cache/owner.jpg")
+ }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/owner.jpg"));
+
+ return request("https://i.imgur.com/cwd64Av.jpeg")
+ .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
+ .on('close', () => callback());
+};
