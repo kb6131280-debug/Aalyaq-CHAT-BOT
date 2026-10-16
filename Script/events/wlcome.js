@@ -35,7 +35,7 @@ module.exports.config = {
   name: "welcome",
   eventType: ["log:subscribe"],
   version: "1.0.0",
-  credits: "SHAHADAT SAHU",
+  credits: "Aaliya bbz",
   description:
     "Premium serial welcome banners",
   dependencies: {
