@@ -125,7 +125,7 @@ module.exports.run = async function({ api, event, Users, Threads }) {
 
 যা, তোরে আবার গ্রুপে ঢুকায় দিলাম! 🤣
 
-◈━━꯭${botName}꯭━━◈`;
+◈━━꯭${Aaliya}꯭━━◈`;
 
         if (mediaPath) {
           return api.sendMessage(
@@ -146,16 +146,12 @@ module.exports.run = async function({ api, event, Users, Threads }) {
   }
 
   const type = isSelfLeave
-    ? `আরে ভাই! 😭
-এডমিনের অনুমতি ছাড়া লিভ? এত সাহস কই পেলি? 😂
-যা যা, আবার আসলে খবর আছে কিন্তু! 😤
-◈━━꯭${botName}꯭━━◈`
+    ? `Gc te thakar joggota nai
+  beikha leave nise🙂👍🏻
+◈━━꯭${Aaliya}꯭━━◈`
 
-    : `ওহো! 😳
-এই গ্রুপের Admin-ও তোকে সয্য করতে পারলো না! 🤣
-তাই তোমাকে লাথি মেরে গ্রুপ থেকে বের করে দেওয়া হলো! 👋😂
-ভালো থাকিস, আর স্বপ্নে গ্রুপে আসিস! 🤧
-◈━━꯭${botName}꯭━━◈`;
+    : `Soytan bhagse😹
+◈━━꯭${Aaliya}꯭━━◈`;
 
   const mediaPath = getRandomMedia(
     isSelfLeave ? "leave" : "remove"
