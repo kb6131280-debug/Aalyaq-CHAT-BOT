@@ -529,7 +529,7 @@ async function createBotJoinBanner(
     let displayBotName =
         String(
             botName ||
-                "SHAHADAT CHAT BOT"
+                "Aaliya bbz"
         ).trim();
 
     if (
@@ -1145,7 +1145,7 @@ module.exports.run =
             const botName =
                 String(
                     global.config.BOTNAME ||
-                        "SHAHADAT CHAT BOT"
+                        "Aaliya bbz"
                 ).trim();
 
             try {
@@ -1218,11 +1218,10 @@ ${botPrefix}Admin
 
 ★ যেকোনো অভিযোগ অথবা হেল্প এর জন্য এডমিন 𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 কে নক করতে পারেন ★
 
-➤𝐌𝐞𝐬𝐬𝐞𝐧𝐠𝐞𝐫: https://m.me/100044713412032
-➤𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: https://wa.me/8801882333052
+➤𝐌𝐞𝐬𝐬𝐞𝐧𝐠𝐞𝐫: https://m.me/61564608965386
 
 ❖⋆═══════════════════════⋆❖
-          𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ➢ 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔`;
+          𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ➢ TALHA`;
 
             return api.sendMessage(
                 {
