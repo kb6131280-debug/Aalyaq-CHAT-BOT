@@ -35,8 +35,8 @@ module.exports.run = async function({ api, event }) {
 ┌───────────────⭓
 │ 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗟𝗜𝗡𝗞𝗦
 ├───────────────
-│📘 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸:
-│https://www.facebook.com/share/1CUi4CwD3o/
+│📘 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸:https://www.facebook.com
+| share/1CUi4CwD3o/
 └───────────────⭓
 
 ┌───────────────⭓
